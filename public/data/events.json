@@ -1,0 +1,109 @@
+{
+  "_comment": "Key anniversaries. When the slider year equals 'year', an event popup fires with the dual-narrative quote pair. Sources mirror the study library (02-sources/israelite-history.md).",
+  "events": [
+    {
+      "year": 1208,
+      "title": "The first 'Israel'",
+      "act": 1,
+      "bible": "The exodus generation — or so the tradition would say.",
+      "archaeology": "The Merneptah Stele (c. 1208 BCE) names 'Israel' for the first time in any record — a people in the highlands of Canaan, already there, already named. No exodus, no conquest: a people emerging from within.",
+      "source": "Merneptah Stele; Finkelstein & Silberman"
+    },
+    {
+      "year": 1150,
+      "title": "The collapse is complete",
+      "act": 1,
+      "bible": "The period of the judges — 'everyone did what was right in their own eyes.'",
+      "archaeology": "The Bronze Age collapse (c. 1200-1150) empties the great cities and the Egyptian garrisons. The highland villages boom: this is where Israel actually forms.",
+      "source": "Cline, 1177 BC; highland surveys"
+    },
+    {
+      "year": 1000,
+      "title": "David takes Jerusalem",
+      "act": 2,
+      "bible": "The City of David is conquered and becomes the capital of the United Monarchy (2 Sam 5).",
+      "archaeology": "The archaeological Jerusalem of the 10th century: a small highland town of a few thousand, with no signs of empire. The Tel Dan Stele confirms the dynasty — not the empire.",
+      "source": "2 Samuel 5; Tel Dan Stele; Finkelstein & Silberman"
+    },
+    {
+      "year": 931,
+      "title": "The kingdom splits",
+      "act": 2,
+      "bible": "After Solomon, Rehoboam's harshness tears the kingdom in two (1 Kgs 12).",
+      "archaeology": "Whether there was ever a united monarchy is debated (minimalists vs. maximalists); what is certain is that from the 9th century on, there are two states — and the north is the strong one.",
+      "source": "1 Kings 12; Finkelstein & Silberman"
+    },
+    {
+      "year": 853,
+      "title": "Ahab at Qarqar",
+      "act": 3,
+      "bible": "The Bible's 'evil' king — who in Assyrian records commands 2,000 chariots.",
+      "archaeology": "The Kurkh Monolith (853 BCE): 'Ahab the Israelite' contributes 2,000 chariots to the coalition that checks Assyria — the largest chariot force in the alliance. Biblical villain, regional power.",
+      "source": "Kurkh Monolith"
+    },
+    {
+      "year": 840,
+      "title": "Jehu bows to Assyria",
+      "act": 3,
+      "bible": "Jehu, the reformer who wiped out the House of Omri (2 Kgs 9-10).",
+      "archaeology": "The Black Obelisk (c. 825 BCE) shows Jehu — or his envoy — prostrate before Shalmaneser III, paying tribute. The earliest surviving image of an Israelite king: on his knees.",
+      "source": "Black Obelisk"
+    },
+    {
+      "year": 722,
+      "title": "Samaria falls",
+      "act": 4,
+      "bible": "The northern kingdom ends; its people are deported and become the ten lost tribes (2 Kgs 17).",
+      "archaeology": "Sargon II: 'I conquered Samaria and carried away 27,290 people.' The destruction layer is real. The north never returns.",
+      "source": "Sargon II's inscriptions"
+    },
+    {
+      "year": 701,
+      "title": "Sennacherib at the gates",
+      "act": 4,
+      "bible": "The angel of the Lord strikes 185,000 Assyrians; Jerusalem is saved (2 Kgs 19:35).",
+      "archaeology": "The Taylor Prism: 46 walled cities taken, Hezekiah 'shut up like a bird in a cage.' The Bible records the tribute it omits — and Jerusalem's survival is the part both sides share.",
+      "source": "Sennacherib's Prism; 2 Kings 18-19"
+    },
+    {
+      "year": 612,
+      "title": "Nineveh falls",
+      "act": 4,
+      "bible": "Nahum's 'city of blood' gets what the prophets promised it.",
+      "archaeology": "A coalition of Babylonians and Medes sacks the largest city on earth. The Assyrian empire ends in fire — leaving a power vacuum Josiah will run into.",
+      "source": "Babylonian Chronicle; Nahum"
+    },
+    {
+      "year": 609,
+      "title": "Josiah dies at Megiddo",
+      "act": 5,
+      "bible": "The reformer-king marches out to block Pharaoh Necho — and is killed (2 Kgs 23:29).",
+      "archaeology": "The biblical text says he died; archaeology says Megiddo was destroyed around 609. The two records finally agree — and the reform dies with him.",
+      "source": "2 Kings 23:29; Megiddo excavations"
+    },
+    {
+      "year": 597,
+      "title": "The first deportation",
+      "act": 5,
+      "bible": "Jehoiachin, the court, the craftsmen — ten thousand captives to Babylon (2 Kgs 24).",
+      "archaeology": "The Babylonian Chronicle BM 21946 confirms the siege, the capture, and the appointment of a puppet king — 'in the month of Adar, on the second day.'",
+      "source": "Babylonian Chronicle; 2 Kings 24"
+    },
+    {
+      "year": 586,
+      "title": "Jerusalem burns",
+      "act": 5,
+      "bible": "The temple of Yahweh, the dwelling of God on earth, is burned to the ground (2 Kgs 25).",
+      "archaeology": "The destruction layer at Jerusalem is unmistakable. The Davidic monarchy ends after 400 years. The exiles carry the trauma east — and the pen with them.",
+      "source": "2 Kings 25; Jerusalem excavations"
+    },
+    {
+      "year": 539,
+      "title": "Cyrus takes Babylon",
+      "act": 5,
+      "bible": "The Lord raises up Cyrus, 'his anointed,' and the exiles are told to go home (Isa 45:1; Ezra 1).",
+      "archaeology": "The Cyrus Cylinder records the policy: return the peoples, restore the temples. The exile ends by imperial decree — and the scrolls come back changed.",
+      "source": "Cyrus Cylinder; Ezra 1"
+    }
+  ]
+}

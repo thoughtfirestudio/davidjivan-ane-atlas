@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "_comment": "The kingdoms themselves. Borders are SCHEMATIC — simplified from the archaeological picture (Finkelstein & Silberman; Lipschits; the biblical description for the biblical layer). They communicate extent and change, not survey-grade boundaries. mode 'biblical' = the literary picture, 'archaeological' = the material record, 'both' = shared. start/end are BCE years.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The United Monarchy — biblical",
+        "kind": "kingdom",
+        "mode": "biblical",
+        "start": 1000,
+        "end": 930,
+        "color": "#7a5c3e",
+        "label": "Israel (biblical)",
+        "popup": {
+          "bible": "From Dan to Beersheba — a golden empire. David conquers from the Euphrates to the border of Egypt; Solomon's kingdom 'held dominion over all the region west of the Euphrates' (1 Kgs 4:21-24).",
+          "archaeology": "The empire the ground does not know. No trace of a 10th-century state from Dan to Beersheba: no inscriptions, no monumental cities, no evidence of conquest. Jerusalem itself was a small highland town.",
+          "source": "1 Kings 4-5; Finkelstein & Silberman"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.65, 33.25], [35.95, 33.1], [36.2, 32.8], [36.1, 32.0], [35.8, 31.6], [35.75, 31.4], [35.55, 31.2], [35.3, 31.15], [35.1, 31.2], [34.9, 31.3], [34.8, 31.45], [34.75, 31.6], [34.8, 31.75], [34.9, 31.9], [35.1, 32.0], [35.15, 32.2], [35.25, 32.35], [35.3, 32.5], [35.3, 32.7], [35.45, 32.85], [35.6, 33.0], [35.75, 33.1], [35.65, 33.25]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The United Monarchy — archaeological",
+        "kind": "kingdom",
+        "mode": "archaeological",
+        "start": 1000,
+        "end": 930,
+        "color": "#5b7f6e",
+        "label": "Jerusalem chiefdom",
+        "popup": {
+          "bible": "The Bible's empire was here — in this one hill town.",
+          "archaeology": "What archaeology actually finds in the 10th century: a chiefdom centered on Jerusalem, a town of a few thousand people with no monumental architecture. The surrounding region stayed Canaanite and independent.",
+          "source": "Finkelstein & Silberman, The Bible Unearthed (2001)"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.1, 31.85], [35.15, 31.78], [35.25, 31.75], [35.35, 31.8], [35.4, 31.9], [35.35, 31.95], [35.25, 31.98], [35.1, 31.95], [35.1, 31.85]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Israel (north) — early",
+        "kind": "kingdom",
+        "mode": "both",
+        "start": 930,
+        "end": 885,
+        "color": "#2c4a6e",
+        "label": "Israel",
+        "popup": {
+          "bible": "The breakaway north under Jeroboam I: Shechem and then Tirzah as capitals, golden calves at Dan and Bethel (1 Kgs 12).",
+          "archaeology": "The northern highlands show dense settlement and early state formation — the north was always the demographic heavyweight.",
+          "source": "1 Kings 12; highland surveys"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.5, 32.7], [35.4, 32.6], [35.25, 32.65], [35.1, 32.5], [34.95, 32.4], [35.0, 32.2], [35.1, 32.0], [35.24, 31.93], [35.35, 31.95], [35.5, 32.0], [35.55, 32.2], [35.6, 32.4], [35.55, 32.6], [35.5, 32.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Israel (north) — the Omride state",
+        "kind": "kingdom",
+        "mode": "both",
+        "start": 885,
+        "end": 732,
+        "color": "#2c4a6e",
+        "label": "Israel",
+        "popup": {
+          "bible": "The 'evil' kings of the Bible — Omri, Ahab, Jehu — who built Samaria, married Phoenicia, and fought Assyria at Qarqar with 2,000 chariots.",
+          "archaeology": "A real state at its height: the Omride dynasty's monuments (Samaria, Jezreel, Megiddo's 9th-century gates), control of the Jezreel Valley and the coastal trade, and a province in Transjordan. Assyria calls it Bit-Humri — the House of Omri.",
+          "source": "Kurkh Monolith; Black Obelisk; Finkelstein & Silberman"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.65, 33.25], [35.95, 33.1], [36.2, 32.8], [36.1, 32.2], [35.9, 32.0], [35.55, 31.95], [35.24, 31.93], [35.0, 31.98], [34.9, 32.2], [34.85, 32.4], [34.95, 32.6], [35.1, 32.9], [35.2, 33.1], [35.65, 33.25]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Israel (north) — the Assyrian remnant",
+        "kind": "kingdom",
+        "mode": "both",
+        "start": 732,
+        "end": 722,
+        "color": "#3a5a80",
+        "label": "Israel (remnant)",
+        "popup": {
+          "bible": "After Tiglath-Pileser III strips away Galilee and Gilead, all that is left of Israel is 'the city of Samaria' and its hills (2 Kgs 17:5-6).",
+          "archaeology": "The Assyrian provincial reorganization leaves a rump around Samaria until Sargon II finishes the job in 722 — deporting 27,290 people, by his own count.",
+          "source": "2 Kings 17; Sargon II's inscriptions"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.2, 32.35], [35.3, 32.35], [35.35, 32.25], [35.35, 32.1], [35.3, 32.0], [35.25, 32.05], [35.15, 32.05], [35.1, 32.15], [35.15, 32.25], [35.2, 32.35]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Judah (south) — the full kingdom",
+        "kind": "kingdom",
+        "mode": "both",
+        "start": 930,
+        "end": 701,
+        "color": "#a87c1f",
+        "label": "Judah",
+        "popup": {
+          "bible": "The little south that outlasted the mighty north: the House of David ruling Jerusalem, the temple, and the Shephelah's fortress cities.",
+          "archaeology": "A modest but real kingdom: fortified cities (Lachish, Beersheba, Arad), the royal administration, and — after 722 — a demographic boom as northern refugees flood south. Then Sennacherib strips the Shephelah in 701.",
+          "source": "Sennacherib's Annals; Lipschits"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[34.95, 31.85], [34.9, 31.7], [34.85, 31.6], [34.85, 31.5], [34.9, 31.4], [35.0, 31.3], [35.1, 31.25], [35.2, 31.2], [35.3, 31.15], [35.4, 31.25], [35.45, 31.4], [35.4, 31.55], [35.5, 31.7], [35.45, 31.85], [35.4, 31.95], [35.24, 31.93], [35.15, 31.9], [35.05, 31.85], [34.95, 31.85]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Judah (south) — after Sennacherib",
+        "kind": "kingdom",
+        "mode": "both",
+        "start": 701,
+        "end": 586,
+        "color": "#a87c1f",
+        "label": "Judah",
+        "popup": {
+          "bible": "Jerusalem survives the siege of 701 — 'the angel of the Lord struck down 185,000 Assyrians' (2 Kgs 19:35). The city grows, and the temple's treasury pays the tribute.",
+          "archaeology": "Sennacherib's prism tells the other side: he took 46 walled cities and shut Hezekiah 'like a bird in a cage.' Judah shrinks to the hill country around Jerusalem — which then triples in size as refugees flood in. This is the Judah that Josiah reforms.",
+          "source": "Sennacherib's Prism; Broad Wall excavations"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.05, 31.8], [35.0, 31.7], [34.95, 31.6], [35.0, 31.5], [35.1, 31.45], [35.2, 31.4], [35.3, 31.4], [35.35, 31.5], [35.4, 31.6], [35.42, 31.75], [35.4, 31.9], [35.24, 31.93], [35.1, 31.85], [35.05, 31.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Ruins of Israel",
+        "kind": "ruins",
+        "mode": "both",
+        "start": 722,
+        "end": 539,
+        "color": "#6b6b6b",
+        "label": "Samaria, an Assyrian province",
+        "popup": {
+          "bible": "The northern kingdom gone — deported, scattered, 'the ten lost tribes.' The farmers left behind become, in time, the Samaritans (2 Kgs 17:24-41).",
+          "archaeology": "Sargon II's inscription: 'I conquered Samaria and carried away 27,290 people.' Samaria becomes an Assyrian provincial capital, and the northern kingdom never returns.",
+          "source": "Sargon II; 2 Kings 17"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.1, 32.4], [35.25, 32.4], [35.3, 32.3], [35.28, 32.15], [35.2, 32.05], [35.1, 32.1], [35.05, 32.25], [35.1, 32.4]]]
+      }
+    }
+  ]
+}

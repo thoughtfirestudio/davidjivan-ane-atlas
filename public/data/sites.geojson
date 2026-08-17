@@ -1,0 +1,694 @@
+{
+  "type": "FeatureCollection",
+  "_comment": "Points of interest. Properties: name, kind (capital | cult | city | fortress | imperial | ruins | village), start/end BCE years of existence, mode (both | biblical | archaeological), popup {bible, archaeology, source}. Coordinates approximate, after Pleiades/AWMC.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jerusalem",
+        "kind": "capital",
+        "start": 1200,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "The City of David, capital of the United Monarchy, then of Judah alone. The Temple of Solomon stood here from c. 960 BCE until Nebuchadnezzar burned it in 586.",
+          "archaeology": "In the 10th century BCE a highland town of a few thousand people, no monumental buildings; the 'great kingdom' of the Bible is not in the ground. By the 8th century it is a real city — Hezekiah's Broad Wall and the Siloam Tunnel date from then.",
+          "source": "Finkelstein & Silberman, The Bible Unearthed (2001)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.2296, 31.7784] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Samaria",
+        "kind": "capital",
+        "start": 880,
+        "end": 722,
+        "mode": "both",
+        "popup": {
+          "bible": "Capital of the northern kingdom, built by Omri (1 Kgs 16:24). Condemned by the prophets as the seat of idolatry; destroyed by Assyria in 722 BCE.",
+          "archaeology": "A major 9th-century building project with an acropolis and a massive casemate wall — the archaeology of a real state. Assyrian records call the north the 'House of Omri.' After 722 it became an Assyrian provincial capital.",
+          "source": "Meshel & others; Assyrian royal inscriptions"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.19, 32.2777] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Megiddo",
+        "kind": "city",
+        "start": 1200,
+        "end": 609,
+        "mode": "both",
+        "popup": {
+          "bible": "Guarded the Jezreel Valley pass on the Via Maris. The place Josiah died in 609 BCE trying to stop Pharaoh Necho (2 Kgs 23:29). In Christian tradition, the site of Armageddon ('har Megiddo').",
+          "archaeology": "A heavily fortified Canaanite city-state in the 10th century — not part of Solomon's empire. Its famous 'Solomonic' gates date to the 9th-century Omride dynasty. Destroyed around 609, matching Josiah's death.",
+          "source": "Finkelstein & Silberman; Megiddo excavations"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.185, 32.585] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lachish",
+        "kind": "fortress",
+        "start": 1200,
+        "end": 586,
+        "mode": "both",
+        "popup": {
+          "bible": "Second city of Judah, besieged by Sennacherib in 701 BCE while his envoy demanded Jerusalem's surrender (2 Kgs 18-19).",
+          "archaeology": "The Assyrian siege ramp is still visible, with hundreds of arrowheads and the famous 'Lachish reliefs' from Sennacherib's palace at Nineveh. The Lachish letters — ostraca from 588 BCE — record the last days of the kingdom, city by city.",
+          "source": "Lachish excavations; Sennacherib's palace reliefs"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.849, 31.5654] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dan",
+        "kind": "cult",
+        "start": 1200,
+        "end": 732,
+        "mode": "both",
+        "popup": {
+          "bible": "Northernmost shrine of the northern kingdom, where Jeroboam set up a golden calf (1 Kgs 12:29) — the rival altar the Judahite scribes condemned.",
+          "archaeology": "A huge sacred precinct with a monumental podium, a 'bamah,' and a cultic installation with bulls — not an idol, but a pedestal for Yahweh. The Tel Dan Stele (c. 840 BCE) — 'House of David' — was found in the city's gate.",
+          "source": "Tel Dan excavations; Tel Dan Stele"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.652, 33.2486] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bethel",
+        "kind": "cult",
+        "start": 1200,
+        "end": 722,
+        "mode": "both",
+        "popup": {
+          "bible": "Where Jacob dreamed of a ladder to heaven (Gen 28). Jeroboam set up the southern golden calf here (1 Kgs 12:29).",
+          "archaeology": "A major highland sanctuary from the Iron Age; the 'golden calf' archaeology is debated, but the site's cultic importance is clear. Destroyed in the 8th century.",
+          "source": "Bethel excavations (Kelso)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.24, 31.93] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arad",
+        "kind": "fortress",
+        "start": 900,
+        "end": 586,
+        "mode": "both",
+        "popup": {
+          "bible": "A Judahite fortress in the Negev; the Bible barely mentions it.",
+          "archaeology": "The only Judahite temple ever excavated, with two incense altars in the Holy of Holies — one with frankincense residue, one with cannabis mixed with dung. Deliberately dismantled, probably by the Josianic reform.",
+          "source": "Arie, Rosen & Namdar, Tel Aviv 47 (2020)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.1253, 31.2805] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Babylon",
+        "kind": "imperial",
+        "start": 1000,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Where the exiles were carried in 597, 586, and 582 BCE. Ezekiel's visions happen by the Chebar canal here. The Psalms of lament are Babylonian poetry.",
+          "archaeology": "The imperial capital of the Neo-Babylonian empire; Nebuchadnezzar's palace ration tablets list 'Jehoiachin, king of Judah.' The Cyrus Cylinder (539 BCE) records the Persian policy of return.",
+          "source": "Babylon excavations; Jehoiachin ration tablets; Cyrus Cylinder"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [44.4209, 32.5364] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nineveh",
+        "kind": "imperial",
+        "start": 900,
+        "end": 612,
+        "mode": "both",
+        "popup": {
+          "bible": "The 'city of blood' of the prophet Nahum; Jonah's reluctant destination. Its fall in 612 BCE is the hinge that freed Josiah.",
+          "archaeology": "Capital of the Assyrian empire; Sennacherib's palace walls carried the reliefs of the Lachish siege. Sacked by Babylonians and Medes in 612 BCE.",
+          "source": "Nineveh excavations (Layard); Babylonian Chronicle"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [43.1528, 36.3594] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Damascus",
+        "kind": "city",
+        "start": 1000,
+        "end": 732,
+        "mode": "both",
+        "popup": {
+          "bible": "Capital of Aram, Israel's recurring northern enemy; the Arameans 'oppressed Israel all the days of Jehoahaz' (2 Kgs 13:22).",
+          "archaeology": "Head of the Aram-Damascus kingdom; in 853 BCE its king Ben-Hadad led the coalition that stopped Assyria at Qarqar. Destroyed by Tiglath-Pileser III in 732.",
+          "source": "Kurkh Monolith; Assyrian records"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [36.2765, 33.5138] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tyre",
+        "kind": "city",
+        "start": 1200,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Phoenician city that supplied Hiram's cedar and craftsmen for Solomon's temple (1 Kgs 5); Jezebel's homeland.",
+          "archaeology": "A wealthy maritime city-state on an island; its purple dye and trade network spanned the Mediterranean. Never conquered by Assyria — only by Babylon after a 13-year siege.",
+          "source": "Phoenician trade archaeology"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.1948, 33.2703] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hazor",
+        "kind": "city",
+        "start": 1200,
+        "end": 732,
+        "mode": "both",
+        "popup": {
+          "bible": "'The head of all those kingdoms' (Josh 11:10); burned by Joshua in the conquest narrative.",
+          "archaeology": "The largest tell in Israel, 200 acres; its 10th-century 'Solomonic gate' is now dated to the 9th century (Omride). Destroyed by Assyria in 732 BCE.",
+          "source": "Hazor excavations (Yadin)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.57, 33.017] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gezer",
+        "kind": "city",
+        "start": 1200,
+        "end": 732,
+        "mode": "both",
+        "popup": {
+          "bible": "Given to Solomon by Pharaoh as a dowry (1 Kgs 9:16) and rebuilt by him.",
+          "archaeology": "A Canaanite city-state that stayed independent through the 10th century; its six-chambered gate is 9th-century, not Solomonic. The Gezer Calendar (10th c. BCE) is one of the oldest Hebrew texts.",
+          "source": "Gezer excavations; Finkelstein & Silberman"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.9194, 31.8594] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shechem",
+        "kind": "city",
+        "start": 1200,
+        "end": 722,
+        "mode": "both",
+        "popup": {
+          "bible": "Covenant site of Abraham and Joshua; first capital of the northern kingdom under Jeroboam I (1 Kgs 12:25).",
+          "archaeology": "A major highland city with the earliest Israelite-period fortifications; the 'Shechem' of the Amarna letters was already prominent in the 14th century.",
+          "source": "Shechem excavations (Wright)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.28, 32.21] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dibon",
+        "kind": "city",
+        "start": 1200,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Moabite city taken by Israel, according to the Bible; where the Mesha Stele's king ruled.",
+          "archaeology": "Found in 1868 at Dibon: the Mesha Stele, c. 840 BCE, records Moab's rebellion against Israel after Omri's death — and names the god Chemosh dragging Yahweh's vessels before him.",
+          "source": "Mesha Stele (Moabite Stone)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.776, 31.4981] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rabbah",
+        "kind": "city",
+        "start": 1200,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Capital of Ammon; besieged and taken by David (2 Sam 12:26-31).",
+          "archaeology": "Ammon's hilltop capital (modern Amman) with its citadel; Ammonite inscriptions confirm the kingdom's wealth and its own divine council under the god Milcom.",
+          "source": "Amman Citadel inscriptions"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.9106, 31.9539] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bozrah",
+        "kind": "city",
+        "start": 1000,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Capital of Edom; the prophets thunder against it (Amos 1:12).",
+          "archaeology": "A walled Edomite town with a casemate wall and a rich archive of seals and ostraca; Edom's rise dates to the 8th-7th centuries, powered by the Arabian trade.",
+          "source": "Buseirah excavations (Bennett)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.604, 30.749] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ezion-geber",
+        "kind": "fortress",
+        "start": 1000,
+        "end": 800,
+        "mode": "both",
+        "popup": {
+          "bible": "Solomon's Red Sea port, where his fleet sailed for Ophir's gold (1 Kgs 9:26-28).",
+          "archaeology": "The gulf port (near modern Aqaba/Eilat) is real — a gateway for the Arabia trade; the Bible's 'ships of Tarshish' aside, archaeology confirms the port's existence.",
+          "source": "Elat/Aqaba archaeology"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.951, 29.546] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kuntillet Ajrud",
+        "kind": "cult",
+        "start": 850,
+        "end": 750,
+        "mode": "both",
+        "popup": {
+          "bible": "Not in the Bible — and that is the point.",
+          "archaeology": "A 9th-century way-station in the Sinai desert with wall inscriptions and painted figures reading 'Yahweh of Samaria and his Asherah' — the goddess beside the god, on the road between the kingdoms.",
+          "source": "Kuntillet Ajrud inscriptions (Meshel)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.4256, 30.1928] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qarqar",
+        "kind": "fortress",
+        "start": 853,
+        "end": 853,
+        "mode": "both",
+        "popup": {
+          "bible": "Never mentioned in the Bible.",
+          "archaeology": "Site of the 853 BCE battle where Shalmaneser III met an anti-Assyrian coalition. The Kurkh Monolith lists Ahab of Israel with 2,000 chariots — the largest chariot force in the alliance.",
+          "source": "Kurkh Monolith (853 BCE)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [36.401, 35.398] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carchemish",
+        "kind": "fortress",
+        "start": 1200,
+        "end": 605,
+        "mode": "both",
+        "popup": {
+          "bible": "Unnamed in the Bible, but the hinge of the exile.",
+          "archaeology": "In 605 BCE Nebuchadnezzar crushed Egypt's army here, ending Egyptian power in the Levant and making Babylon the superpower that would destroy Jerusalem in 586.",
+          "source": "Babylonian Chronicle; Jeremiah 46:2 (Riblah/Carchemish)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [38.0154, 36.8297] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Memphis",
+        "kind": "imperial",
+        "start": 1200,
+        "end": 700,
+        "mode": "both",
+        "popup": {
+          "bible": "The Egyptian capital of the oppression narratives; 'the pride of Egypt' the prophets threaten (Jer 46:19).",
+          "archaeology": "Egypt's ancient administrative capital; the pharaohs who marched through the Levant — from Ramesses III to Necho II — passed through here.",
+          "source": "Egyptian records"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [31.254, 29.849] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ekron",
+        "kind": "city",
+        "start": 1200,
+        "end": 603,
+        "mode": "both",
+        "popup": {
+          "bible": "One of the five Philistine capitals; where the ark was taken after its capture (1 Sam 5).",
+          "archaeology": "The largest Iron Age olive-oil production center known — 115 olive presses — making it the industrial powerhouse of the Philistine coast.",
+          "source": "Ekron excavations (Gitin)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.851, 31.779] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gath",
+        "kind": "city",
+        "start": 1200,
+        "end": 830,
+        "mode": "both",
+        "popup": {
+          "bible": "Goliath's city (1 Sam 17); where David pretended madness (1 Sam 21:10-15).",
+          "archaeology": "Tell es-Safi — at 50+ hectares, the largest Philistine city, destroyed by Hazael of Damascus around 830 BCE, exactly when the biblical text says Gath was taken (2 Kgs 12:17).",
+          "source": "Tell es-Safi excavations (Maeir)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.847, 31.701] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Timna",
+        "kind": "fortress",
+        "start": 1400,
+        "end": 1100,
+        "mode": "both",
+        "popup": {
+          "bible": "Not in the Bible — but the deep south where Yahweh's name first appears.",
+          "archaeology": "The copper-mining center of the Arabah. An Egyptian temple here (14th-12th c.) was reused by Midianites, whose smelting camps name the local god in inscriptions — the metallurgical world where some scholars place Yahweh's origins.",
+          "source": "Timna excavations; Amzallag (metallurgical theory)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.958, 29.777] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shasu of Yhw",
+        "kind": "ruins",
+        "start": 1400,
+        "end": 1100,
+        "mode": "both",
+        "popup": {
+          "bible": "Pre-biblical — the name 'Yahweh' in a text that predates Israel.",
+          "archaeology": "Egyptian topographical lists (13th c. BCE) name the 'Shasu of Yhw' — semi-nomadic pastoralists roaming Seir, Edom, and Teman. The earliest external witness to the god's name, before Israel existed.",
+          "source": "Egyptian inscriptions at Amarah West & Soleb"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.4, 29.9] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shiloh",
+        "kind": "cult",
+        "start": 1200,
+        "end": 1050,
+        "mode": "both",
+        "popup": {
+          "bible": "Where the ark rested in the tabernacle; Samuel's sanctuary (1 Sam 1-4).",
+          "archaeology": "An Iron Age I shrine site destroyed around 1050 BCE — matching the ark's capture narrative. One of the few places where archaeology and the biblical timeline of the pre-monarchic period agree.",
+          "source": "Shiloh excavations (Finkelstein)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.289, 32.057] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ecbatana",
+        "kind": "imperial",
+        "start": 650,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Not in the Bible; the Medes' summer capital (Ezra 6:2 says the scroll of Cyrus was found 'in the citadel of Ecbatana').",
+          "archaeology": "Capital of the Median kingdom, the empire that helped topple Nineveh in 612 and Babylon in 539 — the east that Cyrus inherited.",
+          "source": "Herodotus; Ezra 6:2"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [48.514, 34.798] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beersheba",
+        "kind": "city",
+        "start": 1200,
+        "end": 586,
+        "mode": "both",
+        "popup": {
+          "bible": "The south anchor of the land — 'from Dan to Beersheba.' Abraham's well (Gen 21).",
+          "archaeology": "A well-planned fortified city with an underground water system; the horned altar found dismantled here echoes the reform that centralized worship in Jerusalem.",
+          "source": "Beersheba excavations (Aharoni)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.841, 31.245] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jericho",
+        "kind": "city",
+        "start": 1200,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "The walls that fell at the trumpet blast (Josh 6).",
+          "archaeology": "The walls that did not fall: the famous Bronze Age walls collapsed centuries before Joshua, and the city was nearly unoccupied when the Bible says it was conquered. The conquest narrative is theology, not reportage.",
+          "source": "Jericho excavations (Kenyon)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.444, 31.871] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gibeon",
+        "kind": "city",
+        "start": 1200,
+        "end": 586,
+        "mode": "both",
+        "popup": {
+          "bible": "Where the sun stood still (Josh 10); where Saul's descendants were executed (2 Sam 21).",
+          "archaeology": "A major highland city with a 25-meter water shaft — engineering of a real, organized polity in the Iron Age.",
+          "source": "Gibeon excavations (Pritchard)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.183, 31.847] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashdod",
+        "kind": "city",
+        "start": 1200,
+        "end": 603,
+        "mode": "both",
+        "popup": {
+          "bible": "Philistine city where the ark was taken (1 Sam 5); Amos thunders against it (Amos 1:8).",
+          "archaeology": "A major Philistine port and cultural center; its excavation revealed the material culture of the 'Sea Peoples' who settled the coast.",
+          "source": "Ashdod excavations (Dothan)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.658, 31.753] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ashkelon",
+        "kind": "city",
+        "start": 1200,
+        "end": 604,
+        "mode": "both",
+        "popup": {
+          "bible": "Philistine seaport; Samson's birthplace (Judg 14).",
+          "archaeology": "One of the great Bronze-to-Iron Age ports; a 12th-century BCE infant burial site here revealed Philistine origins in the Aegean world.",
+          "source": "Ashkelon excavations (Stager)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.55, 31.667] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gaza",
+        "kind": "city",
+        "start": 1200,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Where Samson pulled down the temple on the Philistine lords (Judg 16); the southern gateway of the Via Maris.",
+          "archaeology": "The hinge of the coastal route between Egypt and the Levant — every army from Thutmose III to Alexander marched through it.",
+          "source": "Via Maris route studies"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.4668, 31.5017] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hebron",
+        "kind": "city",
+        "start": 1200,
+        "end": 586,
+        "mode": "both",
+        "popup": {
+          "bible": "Abraham's burial place (Gen 23); David's first capital (2 Sam 2).",
+          "archaeology": "A highland town with an impressive Iron Age wall; the 'patriarchal' period archaeology remains famously silent.",
+          "source": "Hebron excavations"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.095, 31.532] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Susa",
+        "kind": "imperial",
+        "start": 550,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "The setting of Esther; where Nehemiah served the Persian court (Neh 1:1).",
+          "archaeology": "The winter capital of the Persian empire, whose kings — Cyrus and his heirs — ruled the returning exiles' world.",
+          "source": "Persian archaeology"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [48.257, 32.189] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Highland villages",
+        "kind": "village",
+        "start": 1200,
+        "end": 1000,
+        "mode": "both",
+        "popup": {
+          "bible": "The 'tribes' settling the promised land.",
+          "archaeology": "The signature of early Israel: hundreds of small, unwalled, terraced hillside villages with pillared houses and storage silos — a population boom of indigenous highlanders, not foreign conquerors.",
+          "source": "Finkelstein & Silberman; highland surveys"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.2, 32.1] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jerusalem (ruins)",
+        "kind": "ruins",
+        "start": 586,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "'How lonely sits the city that was full of people!' (Lam 1:1). The temple a memory, the king in chains.",
+          "archaeology": "Destruction layers, Babylonian arrowheads, and a devastated city — the ground confirms the text for once. The Babylonian exile was real, and it changed everything.",
+          "source": "Jerusalem excavations; Babylonian Chronicle BM 21946"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.2296, 31.7784] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mizpah",
+        "kind": "city",
+        "start": 586,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Where Gedaliah governed what remained of Judah after 586 (2 Kgs 25:22-25).",
+          "archaeology": "Tell en-Nasbeh, 12 km north of Jerusalem: the administrative center of the Babylonian province of Yehud — proof that some Judahites stayed and kept the land.",
+          "source": "Mizpah excavations"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.21, 31.88] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elephantine",
+        "kind": "city",
+        "start": 650,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Not in the Bible — the diaspora was bigger than the return.",
+          "archaeology": "A Jewish garrison on the Nile with its own temple to YHW, documents written in Aramaic — proof that Yahwism thrived in Egypt long after the exile, and that its goddess Anat was still worshipped there.",
+          "source": "Elephantine papyri"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [32.872, 24.085] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tirzah",
+        "kind": "capital",
+        "start": 931,
+        "end": 880,
+        "mode": "both",
+        "popup": {
+          "bible": "First capital of the northern kingdom before Omri built Samaria (1 Kgs 15-16).",
+          "archaeology": "Tell el-Far'ah (North), a well-planned city with a palace complex; its early Iron Age sequence is the clearest archaeology of the northern kingdom's first decades.",
+          "source": "Tell el-Far'ah excavations (de Vaux)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [35.34, 32.29] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kadesh-barnea",
+        "kind": "fortress",
+        "start": 1000,
+        "end": 586,
+        "mode": "both",
+        "popup": {
+          "bible": "Where Israel camped 38 years and Miriam died (Num 20); the gateway of the exodus route.",
+          "archaeology": "A Judahite fortress in the desert; the exodus itself left no trace — the 13th-century 'wilderness wandering' has no archaeological footprint.",
+          "source": "Kadesh-barnea excavations"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [34.414, 30.637] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Al-Yahudu",
+        "kind": "city",
+        "start": 586,
+        "end": 539,
+        "mode": "both",
+        "popup": {
+          "bible": "Not in the Bible — but the exiles' own city.",
+          "archaeology": "A Babylonian town whose archive of cuneiform tablets (c. 572-477 BCE) names hundreds of exiles: 'Yahudu' — 'Judah.' The names show Yahwistic identity rising in the next generation, not dissolving.",
+          "source": "Al-Yahudu tablets (Pearce & Wunsch)"
+        }
+      },
+      "geometry": { "type": "Point", "coordinates": [44.6, 32.7] }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "_comment": "The Ruler Wheel data. Each ruler has regnal years (BCE), a realm, and the dual verdict (biblical vs historical). The wheel auto-spins to the ruler whose reign contains the slider year. 'focus' is an optional bounds box to fly to when selected. Propaganda pairs come from the study library's dual-narrative framing.",
+  "rulers": [
+    {
+      "name": "Ramesses III",
+      "realm": "Egypt",
+      "start": 1186,
+      "end": 1155,
+      "color": "#5f7a55",
+      "biblical": "One of the unnamed pharaohs behind the exodus traditions.",
+      "historical": "Egypt's last great warrior-king — he held off the Sea Peoples and the collapse for one more generation, then the empire in Canaan dissolves.",
+      "focus": [[29.5, 31.0], [32.5, 31.9]]
+    },
+    {
+      "name": "David",
+      "realm": "Israel",
+      "start": 1010,
+      "end": 970,
+      "color": "#a87c1f",
+      "biblical": "The shepherd-king who conquered from Dan to Beersheba, the man after God's own heart.",
+      "historical": "A regional warlord who took a small Jebusite town and founded a dynasty — the House of David, confirmed by the Tel Dan Stele within a century of his death.",
+      "focus": [[31.5, 34.8], [32.8, 35.5]]
+    },
+    {
+      "name": "Solomon",
+      "realm": "Israel",
+      "start": 970,
+      "end": 931,
+      "color": "#a87c1f",
+      "biblical": "The wisest and wealthiest king — 700 wives, fleets of Tarshish, the temple on Mount Moriah.",
+      "historical": "A modest king of a small highland town, if he existed as the Bible describes at all; the 'Solomonic' gates are now dated to the 9th century. The temple's structure is real ANE architecture — the grandeur is retrojection.",
+      "focus": [[31.5, 34.8], [32.8, 35.5]]
+    },
+    {
+      "name": "Jeroboam I",
+      "realm": "Israel (North)",
+      "start": 931,
+      "end": 910,
+      "color": "#2c4a6e",
+      "biblical": "'Jeroboam the son of Nebat, who made Israel to sin' — the golden calves of Dan and Bethel (1 Kgs 12:26-30).",
+      "historical": "The founder of the northern kingdom — the 'sin' was setting up legitimate Yahwist shrines outside Jerusalem, which the Judahite scribes condemned to monopolize worship.",
+      "focus": [[31.9, 35.1], [32.6, 35.6]]
+    },
+    {
+      "name": "Omri",
+      "realm": "Israel (North)",
+      "start": 885,
+      "end": 874,
+      "color": "#2c4a6e",
+      "biblical": "'Omri did what was evil in the sight of the Lord' (1 Kgs 16:25).",
+      "historical": "Founder of the dynasty Assyria called the House of Omri for a century. He built Samaria, allied with Phoenicia, and made Israel a regional power.",
+      "focus": [[31.9, 34.9], [33.3, 36.0]]
+    },
+    {
+      "name": "Ahab",
+      "realm": "Israel (North)",
+      "start": 874,
+      "end": 853,
+      "color": "#2c4a6e",
+      "biblical": "'Ahab did more to provoke the Lord than all the kings of Israel before him' (1 Kgs 16:33) — Jezebel, Baal, and Naboth's vineyard.",
+      "historical": "Commander of 2,000 chariots — the largest force in the anti-Assyrian coalition at Qarqar (Kurkh Monolith). A major regional player, not a villain.",
+      "focus": [[31.9, 34.9], [33.3, 36.0]]
+    },
+    {
+      "name": "Jehu",
+      "realm": "Israel (North)",
+      "start": 842,
+      "end": 815,
+      "color": "#2c4a6e",
+      "biblical": "The anointed reformer who wiped out the House of Omri and the Baal cult — rewarded with a dynasty of five (2 Kgs 9-10).",
+      "historical": "The coup that ended the Omrides — and submitted Israel to Assyria. The Black Obelisk shows him kneeling before Shalmaneser III.",
+      "focus": [[31.9, 34.9], [33.3, 36.0]]
+    },
+    {
+      "name": "Jeroboam II",
+      "realm": "Israel (North)",
+      "start": 788,
+      "end": 747,
+      "color": "#2c4a6e",
+      "biblical": "'He did what was evil in the sight of the Lord; he did not depart from all the sins of Jeroboam' (2 Kgs 14:24) — while Amos and Hosea denounce the rich.",
+      "historical": "Israel's last golden age: territorial expansion, economic boom, and wealth the prophets could smell. Twenty years after his death, the kingdom is gone.",
+      "focus": [[31.9, 34.9], [33.3, 36.0]]
+    },
+    {
+      "name": "Tiglath-Pileser III",
+      "realm": "Assyria",
+      "start": 745,
+      "end": 727,
+      "color": "#7d7d79",
+      "biblical": "Unnamed directly, but the 'king of Assyria' whose conquests the prophets saw coming (Isa 7-8; 2 Kgs 15:29).",
+      "historical": "The empire's reorganizer: provinces, deportations, and the 732 campaign that destroyed Damascus and stripped Israel to a rump.",
+      "focus": [[32.0, 35.5], [37.0, 44.5]]
+    },
+    {
+      "name": "Sargon II",
+      "realm": "Assyria",
+      "start": 722,
+      "end": 705,
+      "color": "#7d7d79",
+      "biblical": "The fall of Samaria and the ten lost tribes happen on his watch (2 Kgs 17).",
+      "historical": "He finished what Shalmaneser V started: 'I conquered Samaria and carried away 27,290 people.' His name is the shadow over the north.",
+      "focus": [[32.0, 35.5], [37.0, 44.5]]
+    },
+    {
+      "name": "Hezekiah",
+      "realm": "Judah",
+      "start": 715,
+      "end": 686,
+      "color": "#a87c1f",
+      "biblical": "The reformer-king: he removes the high places, trusts Yahweh, and the angel saves Jerusalem (2 Kgs 18-19).",
+      "historical": "The rebel who paid: Sennacherib's prism records the tribute that stripped the temple of gold. Hezekiah's own Siloam Tunnel survives — water engineering for a siege he barely survived.",
+      "focus": [[31.4, 34.7], [32.0, 35.5]]
+    },
+    {
+      "name": "Manasseh",
+      "realm": "Judah",
+      "start": 697,
+      "end": 642,
+      "color": "#a87c1f",
+      "biblical": "The worst king of Judah — child sacrifice, idolatry, and the prophets' curse (2 Kgs 21).",
+      "historical": "A loyal Assyrian vassal for 55 years — the longest reign in the dynasty, and evidently popular. His success suggests the Yahwist partisans were the minority.",
+      "focus": [[31.4, 34.7], [32.0, 35.5]]
+    },
+    {
+      "name": "Josiah",
+      "realm": "Judah",
+      "start": 640,
+      "end": 609,
+      "color": "#a87c1f",
+      "biblical": "The reformer who 'found' the Book of the Law, smashed the shrines, and served Yahweh with all his heart (2 Kgs 22-23).",
+      "historical": "The reform's engine: a scroll that is almost certainly an early Deuteronomy, centralized worship to Jerusalem, and expanded into the ruins of the north. Then he died at Megiddo in 609.",
+      "focus": [[31.4, 34.7], [32.0, 35.5]]
+    },
+    {
+      "name": "Nebuchadnezzar II",
+      "realm": "Babylon",
+      "start": 605,
+      "end": 562,
+      "color": "#a63a2e",
+      "biblical": "The destroyer of Jerusalem — the rod of the Lord's anger, and the furnace of the exile (Jer 25; Dan 1-4).",
+      "historical": "The greatest builder-king of Babylon: Carchemish (605), Jerusalem (597, 586), the hanging gardens' city, and ration tablets that feed Jehoiachin at his table.",
+      "focus": [[30.0, 34.0], [34.5, 45.5]]
+    },
+    {
+      "name": "Cyrus II",
+      "realm": "Persia",
+      "start": 550,
+      "end": 530,
+      "color": "#5a6f9e",
+      "biblical": "Yahweh's 'anointed,' who lets the exiles return and rebuild (Isa 45:1; Ezra 1).",
+      "historical": "Founder of the Persian empire: took Media (550) and Babylon (539) without a battle, and issued the return policy recorded on the Cyrus Cylinder.",
+      "focus": [[30.0, 34.0], [34.5, 48.5]]
+    }
+  ]
+}

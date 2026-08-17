@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "_comment": "Imperial spheres and hegemonic shadows. Schematic extents for communication, not survey-grade borders. Each has start/end BCE years. The 'shadow' features are rendered as semi-transparent overlays. Sources: Assyrian/Babylonian royal inscriptions, Egyptian records, standard historical atlases.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Egyptian presence — the waning empire",
+        "kind": "superpower",
+        "mode": "both",
+        "start": 1200,
+        "end": 1130,
+        "color": "#5f7a55",
+        "label": "Egypt",
+        "popup": {
+          "bible": "The empire of the exodus narratives; Egypt ruled Canaan through garrisons and vassal kings.",
+          "archaeology": "Egyptian control of Canaan was real but collapsing: Ramesses III (1186-1155) still marched and built, but by 1130 the garrisons are gone and the pharaohs are fighting for the delta. The 20th-dynasty empire in Asia dissolves within two generations.",
+          "source": "Merneptah Stele; Ramesses III inscriptions; ANET"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[30.75, 31.5], [31.5, 31.6], [32.0, 31.7], [32.8, 31.6], [33.5, 31.4], [34.3, 31.4], [34.6, 31.5], [34.75, 31.6], [34.7, 31.75], [34.6, 31.9], [34.5, 31.9], [34.3, 31.7], [33.5, 31.2], [32.8, 31.0], [32.0, 31.2], [31.2, 31.0], [30.75, 31.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Egyptian presence — the delta remnant",
+        "kind": "superpower",
+        "mode": "both",
+        "start": 1130,
+        "end": 1000,
+        "color": "#6d8573",
+        "label": "Egypt (receding)",
+        "popup": {
+          "bible": "The pharaohs of the judges period — mostly names in a vacuum.",
+          "archaeology": "After the collapse, Egypt retreats to the delta and the Sinai route. No more imperial presence in Canaan — the coastal highway stays open for trade, not conquest.",
+          "source": "Late 20th-dynasty records"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[30.9, 31.6], [31.8, 31.7], [32.5, 31.5], [33.0, 31.4], [33.5, 31.3], [33.2, 31.0], [32.0, 31.1], [31.0, 31.1], [30.9, 31.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Assyria — the growing empire",
+        "kind": "superpower",
+        "mode": "both",
+        "start": 900,
+        "end": 745,
+        "color": "#8a8a86",
+        "label": "Assyria",
+        "popup": {
+          "bible": "The empire that appears in the prophets as the rod of God's anger (Isa 10:5) — and the armies that took tribute from Ahab's successors.",
+          "archaeology": "From Ashurnasirpal II (883-859) the Assyrian war machine expands west: Shalmaneser III reaches the Mediterranean, takes Jehu's tribute, and stamps the Levant into the Assyrian economy. The Levant is a tributary, not yet a province.",
+          "source": "Kurkh Monolith; Black Obelisk; Shalmaneser III annals"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[40.5, 35.2], [42.0, 36.3], [43.5, 36.8], [44.0, 36.0], [43.5, 35.0], [42.5, 34.5], [41.5, 34.6], [40.5, 34.9], [40.5, 35.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Assyria — the imperial core",
+        "kind": "superpower",
+        "mode": "both",
+        "start": 745,
+        "end": 609,
+        "color": "#7d7d79",
+        "label": "Assyrian Empire",
+        "popup": {
+          "bible": "'Woe to Assyria, the rod of my anger' (Isa 10:5). The empire that erased Israel in 722 and kept Judah as a vassal for a century.",
+          "archaeology": "The first true imperial bureaucracy: provinces, deportations, royal roads, and a standing army. Under Tiglath-Pileser III (745-727) the Levant stops being tribute-paying and becomes provincial — Israel first, then the coastal cities. Nineveh, the largest city on earth, falls only in 612.",
+          "source": "Tiglath-Pileser III annals; Nineveh excavations; Babylonian Chronicle"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[40.0, 35.0], [42.0, 36.5], [43.5, 37.2], [44.5, 36.5], [45.0, 35.5], [44.0, 34.5], [43.0, 34.0], [42.0, 34.5], [41.0, 34.5], [40.0, 34.8], [40.0, 35.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Assyrian hegemony — the shadow over the Levant",
+        "kind": "shadow",
+        "mode": "both",
+        "start": 745,
+        "end": 609,
+        "color": "#7d7d79",
+        "label": "Assyrian domination",
+        "popup": {
+          "bible": "The north gone, the south paying — the world of Isaiah, Micah, and the fall of Samaria.",
+          "archaeology": "Provincial reorganization, mass deportations, and tribute that stripped temple treasuries. The Levant is under the shadow of a superpower that can erase a kingdom in a single campaign.",
+          "source": "Assyrian annals; 2 Kings 15-20"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[34.6, 29.5], [34.6, 34.3], [36.5, 34.5], [37.5, 34.0], [37.0, 32.5], [36.5, 31.5], [36.0, 30.5], [35.5, 29.8], [34.6, 29.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neo-Babylonian Empire",
+        "kind": "superpower",
+        "mode": "both",
+        "start": 626,
+        "end": 539,
+        "color": "#a63a2e",
+        "label": "Babylon",
+        "popup": {
+          "bible": "Nebuchadnezzar's Babylon — the destroyer of Jerusalem, the furnace of the exile, the setting of Daniel and Ezekiel.",
+          "archaeology": "The Neo-Babylonian empire under Nabopolassar and Nebuchadnezzar II: the destruction of Nineveh (612), the victory at Carchemish (605), and the three deportations from Judah (597, 586, 582) recorded in the Babylonian Chronicle and confirmed by the Jehoiachin ration tablets.",
+          "source": "Babylonian Chronicle BM 21946; Jehoiachin ration tablets"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[43.0, 32.0], [44.0, 33.0], [45.0, 33.5], [46.0, 32.5], [47.0, 31.5], [47.5, 30.5], [46.5, 30.0], [45.0, 30.0], [44.0, 30.5], [43.5, 31.5], [43.0, 32.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Media",
+        "kind": "superpower",
+        "mode": "both",
+        "start": 612,
+        "end": 550,
+        "color": "#4a5d8a",
+        "label": "Media",
+        "popup": {
+          "bible": "The Medes — the east that helped end Assyria and, with Persia, took Babylon.",
+          "archaeology": "The Median kingdom (western Iran) allied with Babylon to sack Nineveh in 612. Under Cyrus, Persia absorbs Media — the east enters the story.",
+          "source": "Babylonian Chronicle; Herodotus"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[45.5, 33.0], [47.0, 34.5], [48.5, 35.5], [50.0, 35.0], [50.5, 33.5], [49.5, 32.0], [48.0, 31.5], [46.5, 32.0], [45.5, 33.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Persian Empire of Cyrus",
+        "kind": "superpower",
+        "mode": "both",
+        "start": 550,
+        "end": 539,
+        "color": "#5a6f9e",
+        "label": "Persia",
+        "popup": {
+          "bible": "Cyrus — the anointed of Yahweh (Isa 45:1), the king who lets the exiles go home.",
+          "archaeology": "Cyrus II conquers Media (550), then Babylon (539) — the Cyrus Cylinder records the policy of returning displaced peoples and restoring their temples. The exile's end is an imperial decree, not a miracle.",
+          "source": "Cyrus Cylinder; Ezra 1"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[48.0, 31.5], [50.0, 33.0], [51.5, 34.0], [52.5, 33.0], [52.0, 30.5], [50.5, 29.5], [49.0, 29.5], [48.0, 30.5], [48.0, 31.5]]]
+      }
+    }
+  ]
+}

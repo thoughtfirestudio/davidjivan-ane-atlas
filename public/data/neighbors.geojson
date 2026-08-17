@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "_comment": "The neighboring states. Schematic extents. Each has start/end BCE years and a short dual-narrative popup. Sources: Mesha Stele, Assyrian annals, Amarna/Neo-Assyrian archives, standard historical atlases.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philistia",
+        "kind": "neighbor",
+        "mode": "both",
+        "start": 1200,
+        "end": 732,
+        "color": "#8f5a3e",
+        "label": "Philistines",
+        "popup": {
+          "bible": "The five cities — Gaza, Ashkelon, Ashdod, Ekron, Gath — the people of Samson, Goliath, and the captured ark. Israel's defining enemy.",
+          "archaeology": "The Sea Peoples: Aegean-derived migrants who settle the southern coast in the 12th century with distinctive pottery and customs (Ashkelon's infant burials, Ekron's inscriptions). Organized in a pentapolis that holds the coastal plain until Assyria takes the cities in 732.",
+          "source": "Philistine excavations; Assyrian records"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[34.35, 31.55], [34.5, 31.5], [34.65, 31.6], [34.7, 31.75], [34.8, 31.8], [34.85, 31.7], [34.9, 31.75], [34.8, 31.85], [34.6, 31.9], [34.5, 31.8], [34.4, 31.7], [34.35, 31.55]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philistia — the Assyrian-era cities",
+        "kind": "neighbor",
+        "mode": "both",
+        "start": 732,
+        "end": 539,
+        "color": "#7d5240",
+        "label": "Philistine cities",
+        "popup": {
+          "bible": "Ekron, Ashdod, Ashkelon, Gaza, Gath — surviving as vassal city-states under Assyria and Babylon.",
+          "archaeology": "After 732 the Philistine cities become Assyrian (then Babylonian) dependencies — Ekron grows into an industrial oil-production giant with a royal inscription naming its king.",
+          "source": "Ekron inscription; Assyrian provincial records"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[34.4, 31.55], [34.55, 31.55], [34.68, 31.62], [34.75, 31.72], [34.85, 31.78], [34.85, 31.7], [34.75, 31.6], [34.6, 31.55], [34.45, 31.5], [34.4, 31.55]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Phoenicia",
+        "kind": "neighbor",
+        "mode": "both",
+        "start": 1200,
+        "end": 539,
+        "color": "#3e6b7e",
+        "label": "Phoenicia",
+        "popup": {
+          "bible": "Tyre and Sidon — Hiram's cedar and craftsmen for Solomon's temple, Jezebel's homeland, the traders of the prophets' oracles.",
+          "archaeology": "Coastal city-states that rode out every empire by being indispensable to all of them: shipbuilders, dyers, traders from Byblos to Carthage. The alphabet we use descends from their writing.",
+          "source": "Phoenician archaeology; 1 Kings 5"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.05, 32.7], [35.2, 32.9], [35.3, 33.2], [35.4, 33.5], [35.6, 33.9], [35.7, 34.1], [35.6, 34.0], [35.4, 33.8], [35.2, 33.4], [35.1, 33.0], [35.05, 32.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aram-Damascus",
+        "kind": "neighbor",
+        "mode": "both",
+        "start": 1000,
+        "end": 732,
+        "color": "#7a6a4a",
+        "label": "Aram",
+        "popup": {
+          "bible": "Israel's northern rival — Ben-Hadad and Hazael, the wars of Ahab and Elisha, the Aramean oppression the prophets witnessed.",
+          "archaeology": "A major Aramean kingdom centered on Damascus; in 853 its king led the coalition that checked Assyria at Qarqar. Destroyed by Tiglath-Pileser III in 732, its people deported.",
+          "source": "Kurkh Monolith; Zakkur Stele; Assyrian annals"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.8, 32.9], [36.0, 33.3], [36.4, 33.5], [36.6, 33.3], [36.7, 32.9], [36.4, 32.6], [36.0, 32.6], [35.8, 32.9]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ammon",
+        "kind": "neighbor",
+        "mode": "both",
+        "start": 1200,
+        "end": 539,
+        "color": "#6b7f4e",
+        "label": "Ammon",
+        "popup": {
+          "bible": "Rabbah and the Ammonites — enemies of David, mocked by the prophets for cruelty.",
+          "archaeology": "A Transjordanian kingdom on the edge of the desert, wealthy from the King's Highway trade; its hilltop capital (Amman) and inscriptions survive.",
+          "source": "Amman citadel inscriptions; prophets' oracles"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.7, 31.8], [35.9, 32.0], [36.2, 32.1], [36.3, 31.9], [36.1, 31.6], [35.9, 31.6], [35.7, 31.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moab",
+        "kind": "neighbor",
+        "mode": "both",
+        "start": 1200,
+        "end": 539,
+        "color": "#9e6b3e",
+        "label": "Moab",
+        "popup": {
+          "bible": "The land across the Dead Sea — where Moses died, and where Ruth came from. Chemosh's people.",
+          "archaeology": "The Mesha Stele (c. 840 BCE) is Moab's own voice: its king records throwing off Israel's yoke after Omri's death, and dragging Yahweh's vessels before Chemosh. The Bible and the stone disagree on the outcome — both are propaganda.",
+          "source": "Mesha Stele"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.5, 31.4], [35.7, 31.5], [35.9, 31.5], [36.0, 31.3], [35.9, 31.1], [35.7, 31.0], [35.5, 31.1], [35.5, 31.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Edom",
+        "kind": "neighbor",
+        "mode": "both",
+        "start": 1000,
+        "end": 539,
+        "color": "#8a5a4a",
+        "label": "Edom",
+        "popup": {
+          "bible": "Seir, Esau's land — 'the brother' who stands by while Jerusalem falls, and is cursed for it (Obadiah).",
+          "archaeology": "A southern kingdom straddling the Arabah, enriched by the Arabian trade (Bozrah, Timna's copper). The Shasu of Yhw roamed these southern deserts before Israel existed.",
+          "source": "Bozrah excavations; Obadiah"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[35.2, 30.6], [35.4, 30.8], [35.6, 30.9], [35.8, 30.9], [35.9, 30.6], [35.7, 30.2], [35.4, 30.0], [35.1, 30.1], [35.2, 30.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midian and the southern deserts",
+        "kind": "neighbor",
+        "mode": "both",
+        "start": 1400,
+        "end": 1000,
+        "color": "#9c8a6a",
+        "label": "Midian",
+        "popup": {
+          "bible": "Moses' refuge and his father-in-law's land — the desert where the burning bush burns (Exodus 3).",
+          "archaeology": "The southern deserts are where the name Yahweh first appears: the Egyptian lists of the Shasu of Yhw (13th c. BCE), and the Midianite smelting camps at Timna that some scholars connect to Yahweh's metallurgical origins.",
+          "source": "Egyptian topographical lists; Timna excavations; Amzallag"
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[34.6, 28.9], [35.0, 29.2], [35.4, 29.2], [35.6, 28.9], [35.4, 28.6], [34.9, 28.6], [34.6, 28.9]]]
+      }
+    }
+  ]
+}

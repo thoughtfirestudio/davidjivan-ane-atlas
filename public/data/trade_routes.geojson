@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "_comment": "The two great routes of the Levant. Lines are schematic corridors, not exact roads. Visible across the whole period; they explain why the north was rich and why every empire marched here.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Via Maris",
+        "kind": "route",
+        "mode": "both",
+        "start": 1200,
+        "end": 539,
+        "color": "#7a6a4a",
+        "label": "Via Maris — the Way of the Sea",
+        "popup": {
+          "bible": "The highway of the prophets' armies — 'the way of the sea' of Isaiah 9:1, along which Assyria marched.",
+          "archaeology": "The coastal trunk road from Egypt through Gaza, Aphek, Megiddo, and Hazor to Damascus: the economic spine of the region, and the route every empire took. Controlling it meant controlling the trade.",
+          "source": "Historical geography of the Levant"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[31.05, 30.3], [34.47, 31.5], [34.9, 32.11], [35.1, 32.45], [35.185, 32.585], [35.25, 32.7], [35.57, 33.02], [35.9, 33.4], [36.28, 33.51]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The King's Highway",
+        "kind": "route",
+        "mode": "both",
+        "start": 1200,
+        "end": 539,
+        "color": "#7a6a4a",
+        "label": "The King's Highway",
+        "popup": {
+          "bible": "The road Moses asks Edom's king for (Num 20:17) — the Transjordanian trade route.",
+          "archaeology": "The inland route from the Red Sea up through Edom, Moab, Ammon, and Damascus: spice, copper, and incense traffic that made the small Transjordanian kingdoms richer than their size.",
+          "source": "Numbers 20:17; Transjordanian archaeology"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[34.95, 29.55], [35.4, 30.3], [35.604, 30.749], [35.776, 31.498], [35.91, 31.95], [36.0, 32.5], [36.28, 33.51]]
+      }
+    }
+  ]
+}

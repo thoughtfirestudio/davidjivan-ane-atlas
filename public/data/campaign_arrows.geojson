@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "_comment": "Military campaigns. Each is a schematic line from origin to target, visible only in its year (start == end). Shown with an animated dash. Sources: Assyrian/Babylonian annals, 2 Kings, Babylonian Chronicle.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shalmaneser III to Qarqar",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 853,
+        "end": 853,
+        "color": "#7d7d79",
+        "label": "Assyria vs the coalition, 853 BCE",
+        "popup": {
+          "bible": "Unmentioned — but Ahab of Israel is there, on the Kurkh Monolith, with 2,000 chariots.",
+          "archaeology": "The Battle of Qarqar: Shalmaneser III's march west meets an anti-Assyrian coalition led by Damascus, including 'Ahab the Israelite' — the largest chariot force recorded in the inscription.",
+          "source": "Kurkh Monolith"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[43.15, 36.36], [41.5, 35.5], [39.5, 35.0], [38.02, 36.83], [36.75, 35.14], [36.4, 35.4]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tiglath-Pileser III — the 732 campaign",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 732,
+        "end": 732,
+        "color": "#7d7d79",
+        "label": "Tiglath-Pileser III, 732 BCE",
+        "popup": {
+          "bible": "The Assyrian king who takes Damascus and strips Galilee and Gilead from Israel (2 Kgs 15:29) — the beginning of the end.",
+          "archaeology": "Tiglath-Pileser III's annals list the conquest of Damascus and the deportation of its people; the northern kingdom is reduced to the hills around Samaria.",
+          "source": "Tiglath-Pileser III annals; 2 Kings 15"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[43.15, 36.36], [41.8, 35.8], [39.8, 35.3], [37.5, 34.5], [36.28, 33.51], [36.0, 32.9], [35.65, 33.05], [35.19, 32.28]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sargon II — the fall of Samaria",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 722,
+        "end": 722,
+        "color": "#7d7d79",
+        "label": "The fall of Samaria, 722 BCE",
+        "popup": {
+          "bible": "After three years of siege, Samaria falls; the northern kingdom is deported — the ten lost tribes (2 Kgs 17).",
+          "archaeology": "Sargon II claims the credit and the numbers: 'I conquered Samaria and carried away 27,290 people.' The destruction layer at Samaria is real. Israel ends.",
+          "source": "Sargon II's inscriptions; 2 Kings 17"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[43.15, 36.36], [41.8, 35.9], [39.9, 35.5], [37.6, 34.8], [35.8, 33.2], [35.19, 32.28]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sennacherib — the 701 campaign",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 701,
+        "end": 701,
+        "color": "#7d7d79",
+        "label": "Sennacherib, 701 BCE",
+        "popup": {
+          "bible": "'In the fourteenth year of King Hezekiah, Sennacherib king of Assyria came up against all the fortified cities of Judah and captured them' (2 Kgs 18:13).",
+          "archaeology": "Sennacherib's prism: 46 walled cities taken, Lachish stormed (its reliefs adorn his palace), and Hezekiah 'shut up like a bird in a cage.' Jerusalem survives — the text and the stone agree on that much.",
+          "source": "Sennacherib's Prism (Taylor Prism); Lachish reliefs"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[43.15, 36.36], [41.8, 35.7], [39.6, 35.2], [37.5, 34.6], [36.28, 33.51], [35.5, 33.0], [34.85, 31.57], [35.23, 31.78]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Necho II — the march north, 609 BCE",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 609,
+        "end": 609,
+        "color": "#5f7a55",
+        "label": "Pharaoh Necho, 609 BCE",
+        "popup": {
+          "bible": "Josiah marches out to stop Pharaoh Necho — and is killed at Megiddo (2 Kgs 23:29). The reformer's golden age dies with him.",
+          "archaeology": "Necho marches north to save the dying Assyrian remnant from Babylon. Josiah dies at Megiddo in 609 — the battlefield that keeps taking kings.",
+          "source": "2 Kings 23:29; Babylonian Chronicle"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[31.25, 30.0], [33.5, 31.3], [34.47, 31.5], [35.0, 32.2], [35.185, 32.585]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nebuchadnezzar — the 597 deportation",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 597,
+        "end": 597,
+        "color": "#a63a2e",
+        "label": "Nebuchadnezzar, 597 BCE",
+        "popup": {
+          "bible": "Jehoiachin surrenders; the king, the officials, the warriors, the craftsmen — about 10,000 people — are carried off (2 Kgs 24:14-16).",
+          "archaeology": "The Babylonian Chronicle BM 21946 records it in a month-and-day: 'He encamped against the city of Judah and on the second day of Adar he captured the city and seized its king.'",
+          "source": "Babylonian Chronicle; 2 Kings 24"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[44.42, 32.54], [42.5, 33.5], [40.5, 34.0], [38.5, 34.5], [36.6, 33.4], [35.4, 32.5], [35.23, 31.78]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nebuchadnezzar — the 586 destruction",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 586,
+        "end": 586,
+        "color": "#a63a2e",
+        "label": "The destruction of Jerusalem, 586 BCE",
+        "popup": {
+          "bible": "Eighteen months of siege. The walls breach, the city burns, the temple falls, the king is blinded (2 Kgs 25).",
+          "archaeology": "The Babylonian destruction layer at Jerusalem is unmistakable: ash, arrowheads, burned houses. The city that Yahweh protected from Assyria, Babylon ends.",
+          "source": "2 Kings 25; Jerusalem excavations"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[44.42, 32.54], [42.5, 33.5], [40.5, 34.0], [38.5, 34.5], [36.6, 33.4], [35.4, 32.5], [35.23, 31.78]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cyrus — the conquest and the return",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 539,
+        "end": 539,
+        "color": "#5a6f9e",
+        "label": "Cyrus takes Babylon, 539 BCE",
+        "popup": {
+          "bible": "The Lord stirs up Cyrus — and the exiles are told they can go home (2 Chr 36:22-23; Ezra 1).",
+          "archaeology": "Cyrus diverts the Euphrates and walks into Babylon. The Cyrus Cylinder announces the restoration policy. The exile ends not with a miracle but an empire's administrative decision.",
+          "source": "Cyrus Cylinder; Nabonidus Chronicle; Herodotus"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[48.51, 34.8], [46.5, 33.5], [44.42, 32.54]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Return — Babylon to Jerusalem",
+        "kind": "campaign",
+        "mode": "both",
+        "start": 538,
+        "end": 538,
+        "color": "#5a6f9e",
+        "label": "The return, 538 BCE",
+        "popup": {
+          "bible": "Sheshbazzar leads the first wave home with the temple vessels (Ezra 1:8-11). The priests return as a 'priesthood in waiting.'",
+          "archaeology": "Only a fraction returns — many stay in Babylon, where a Jewish community thrives for a millennium. The returnees carry the scrolls; the scrolls carry the new theology.",
+          "source": "Ezra 1; Murashu tablets"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[44.42, 32.54], [42.5, 33.5], [40.5, 34.0], [38.5, 34.5], [36.6, 33.4], [35.4, 32.5], [35.23, 31.78]]
+      }
+    }
+  ]
+}
