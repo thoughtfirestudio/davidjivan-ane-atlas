@@ -43,7 +43,15 @@ function polygonStyle(feature?: GeoFeatureType): PathOptions {
   if (props.kind === 'ruins') {
     return { ...pathBase, color, fillColor: color, fillOpacity: 0.18, dashArray: '3 4' }
   }
-  return { ...pathBase, color, fillColor: color }
+  if (props.kind === 'kingdom') {
+    // The kingdoms are the stars of the show — boldest fill and border.
+    return { color, fillColor: color, weight: 3, opacity: 0.95, fillOpacity: 0.55 }
+  }
+  if (props.kind === 'neighbor') {
+    return { color, fillColor: color, weight: 2.5, opacity: 0.9, fillOpacity: 0.38 }
+  }
+  // Empires: keep them quiet so the kingdoms stand out on top.
+  return { color, fillColor: color, weight: 2, opacity: 0.85, fillOpacity: 0.3 }
 }
 
 function lineStyle(kind: string, color: string): PathOptions {
@@ -99,10 +107,20 @@ export default function MapView({ data, year, mode, focusBox, focusKey }: MapVie
         maxZoom={19}
       />
 
-      {/* The empires, then the kingdoms, then the small states — big fills under small ones. */}
-      <GeoJSON data={toFeatureCollection(superpowers)} style={polygonStyle} />
-      <GeoJSON data={toFeatureCollection(kingdoms)} style={polygonStyle} />
-      <GeoJSON data={toFeatureCollection(neighbors)} style={polygonStyle} />
+      {/* The empires, then the kingdoms, then the small states — big fills under
+          small ones. One GeoJSON per feature with a stable key: react-leaflet's
+          GeoJSON only re-applies style on updates and ignores `data` changes,
+          so per-feature remounting is what makes layers appear/disappear as the
+          year moves. */}
+      {superpowers.map((f) => (
+        <GeoJSON key={`super-${f.properties.name}`} data={toFeatureCollection([f])} style={polygonStyle} />
+      ))}
+      {kingdoms.map((f) => (
+        <GeoJSON key={`kingdom-${f.properties.name}`} data={toFeatureCollection([f])} style={polygonStyle} />
+      ))}
+      {neighbors.map((f) => (
+        <GeoJSON key={`neighbor-${f.properties.name}`} data={toFeatureCollection([f])} style={polygonStyle} />
+      ))}
 
       {/* Routes, campaigns, deportations */}
       {tradeRoutes.map((f) => (
