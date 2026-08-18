@@ -108,8 +108,16 @@ export function formatYear(year: number): string {
   return `${year} BCE`
 }
 
+// Boundary years belong to the NEWER act: a year is inside an act when it is
+// <= the act's older bound and > its newer bound — so year 1000 is Act 2, not
+// Act 1. The last act also owns its final year (the atlas's newest year).
+export function yearInAct(act: Act, year: number, acts: Act[]): boolean {
+  const isLast = act.id === acts[acts.length - 1].id
+  return year <= act.years[0] && (year > act.years[1] || isLast)
+}
+
 export function actForYear(acts: Act[], year: number): Act {
-  return acts.find((a) => year <= a.years[0] && year >= a.years[1]) ?? acts[acts.length - 1]
+  return acts.find((a) => yearInAct(a, year, acts)) ?? acts[acts.length - 1]
 }
 
 export function rulersForYear(rulers: Ruler[], year: number): Ruler[] {

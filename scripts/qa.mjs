@@ -78,6 +78,45 @@ check('Egypt polygon gone by 853', !labels853.some((l) => l.includes('Egypt')), 
 const note853 = await page.locator('.act-note h2').innerText()
 check('act note = Rival Kingdoms', note853 === 'The Rival Kingdoms', note853)
 
+console.log('== Act boundaries: clicking an act shows only that act ==')
+// Clicking act 2 jumps to year 1000 — must show Act 2 (United Monarchy),
+// not Act 1's tail (Egypt, Midian, highland villages).
+await page.click('.acts .act:nth-child(2)')
+await page.waitForTimeout(1200)
+const labelsBoundary2 = await mapLabels()
+const noteBoundary2 = await page.locator('.act-note h2').innerText()
+check('click act 2 -> year 1000, act note = United Monarchy', noteBoundary2 === 'The United Monarchy', noteBoundary2)
+check('act 2: no Act 1 tail (Egypt)', !labelsBoundary2.some((l) => l.includes('Egypt')), `labels: ${labelsBoundary2.join(', ')}`)
+check('act 2: no Act 1 tail (Midian)', !labelsBoundary2.some((l) => l.includes('Midian')), `labels: ${labelsBoundary2.join(', ')}`)
+
+// Clicking act 3 jumps to 930 — must show the rival kingdoms, not the
+// United Monarchy still lingering.
+await page.click('.acts .act:nth-child(3)')
+await page.waitForTimeout(1200)
+const labelsBoundary3 = await mapLabels()
+const noteBoundary3 = await page.locator('.act-note h2').innerText()
+check('click act 3 -> year 930, act note = Rival Kingdoms', noteBoundary3 === 'The Rival Kingdoms', noteBoundary3)
+check('act 3: no United Monarchy lingering', !labelsBoundary3.some((l) => l.includes('United Monarchy')), `labels: ${labelsBoundary3.join(', ')}`)
+check('act 3: Israel present', labelsBoundary3.some((l) => l.includes('Israel')), `labels: ${labelsBoundary3.join(', ')}`)
+
+// Clicking act 4 jumps to 722 — Israel should be gone (ruins), not remnant.
+await page.click('.acts .act:nth-child(4)')
+await page.waitForTimeout(1200)
+const labelsBoundary4 = await mapLabels()
+const noteBoundary4 = await page.locator('.act-note h2').innerText()
+check('click act 4 -> year 722, act note = Assyrian Shadow', noteBoundary4 === 'The Assyrian Shadow', noteBoundary4)
+check('act 4: no Israel remnant lingering', !labelsBoundary4.some((l) => l === 'Israel'), `labels: ${labelsBoundary4.join(', ')}`)
+
+// Clicking act 5 jumps to 609 — Josiah's death year, Babylonian era.
+await page.click('.acts .act:nth-child(5)')
+await page.waitForTimeout(1200)
+const noteBoundary5 = await page.locator('.act-note h2').innerText()
+check('click act 5 -> year 609, act note = Babylonian Fall & Exile', noteBoundary5 === 'Babylonian Fall & Exile', noteBoundary5)
+
+// Back to act 3 for the remaining tests.
+await page.click('.acts .act:nth-child(3)')
+await page.waitForTimeout(800)
+
 console.log('== Act 4 (722 BCE) ==')
 await setYear(722)
 const popup722 = await page.locator('.event-popup h3')

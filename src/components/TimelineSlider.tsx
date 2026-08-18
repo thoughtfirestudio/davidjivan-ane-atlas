@@ -1,5 +1,5 @@
 import type { Act } from '../lib/atlas'
-import { formatYear } from '../lib/atlas'
+import { formatYear, yearInAct } from '../lib/atlas'
 
 interface TimelineSliderProps {
   year: number
@@ -24,7 +24,8 @@ export default function TimelineSlider({ year, min, max, acts, onChange, onEvent
         {acts.map((a) => {
           const startPct = ((min - a.years[0]) / span) * 100
           const endPct = ((min - a.years[1]) / span) * 100
-          const active = year <= a.years[0] && year >= a.years[1]
+          // Boundary years belong to the newer act (same rule as actForYear).
+          const active = yearInAct(a, year, acts)
           return (
             <button
               key={a.id}

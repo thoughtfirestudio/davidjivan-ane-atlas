@@ -16,7 +16,13 @@
           "source": "Finkelstein & Silberman, The Bible Unearthed (2001)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.2296, 31.7784] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2296,
+          31.7784
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -24,7 +30,7 @@
         "name": "Samaria",
         "kind": "capital",
         "start": 880,
-        "end": 722,
+        "end": 723,
         "mode": "both",
         "popup": {
           "bible": "Capital of the northern kingdom, built by Omri (1 Kgs 16:24). Condemned by the prophets as the seat of idolatry; destroyed by Assyria in 722 BCE.",
@@ -32,7 +38,13 @@
           "source": "Meshel & others; Assyrian royal inscriptions"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.19, 32.2777] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19,
+          32.2777
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -48,7 +60,13 @@
           "source": "Finkelstein & Silberman; Megiddo excavations"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.185, 32.585] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.185,
+          32.585
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -64,7 +82,13 @@
           "source": "Lachish excavations; Sennacherib's palace reliefs"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.849, 31.5654] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.849,
+          31.5654
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -80,7 +104,13 @@
           "source": "Tel Dan excavations; Tel Dan Stele"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.652, 33.2486] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.652,
+          33.2486
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -88,7 +118,7 @@
         "name": "Bethel",
         "kind": "cult",
         "start": 1200,
-        "end": 722,
+        "end": 723,
         "mode": "both",
         "popup": {
           "bible": "Where Jacob dreamed of a ladder to heaven (Gen 28). Jeroboam set up the southern golden calf here (1 Kgs 12:29).",
@@ -96,7 +126,13 @@
           "source": "Bethel excavations (Kelso)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.24, 31.93] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.24,
+          31.93
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -112,7 +148,13 @@
           "source": "Arie, Rosen & Namdar, Tel Aviv 47 (2020)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.1253, 31.2805] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1253,
+          31.2805
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -128,7 +170,13 @@
           "source": "Babylon excavations; Jehoiachin ration tablets; Cyrus Cylinder"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [44.4209, 32.5364] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4209,
+          32.5364
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -144,7 +192,13 @@
           "source": "Nineveh excavations (Layard); Babylonian Chronicle"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [43.1528, 36.3594] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.1528,
+          36.3594
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -160,7 +214,13 @@
           "source": "Kurkh Monolith; Assyrian records"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [36.2765, 33.5138] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.2765,
+          33.5138
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -176,7 +236,13 @@
           "source": "Phoenician trade archaeology"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.1948, 33.2703] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1948,
+          33.2703
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -192,7 +258,13 @@
           "source": "Hazor excavations (Yadin)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.57, 33.017] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.57,
+          33.017
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -208,7 +280,13 @@
           "source": "Gezer excavations; Finkelstein & Silberman"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.9194, 31.8594] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9194,
+          31.8594
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -216,7 +294,7 @@
         "name": "Shechem",
         "kind": "city",
         "start": 1200,
-        "end": 722,
+        "end": 723,
         "mode": "both",
         "popup": {
           "bible": "Covenant site of Abraham and Joshua; first capital of the northern kingdom under Jeroboam I (1 Kgs 12:25).",
@@ -224,7 +302,13 @@
           "source": "Shechem excavations (Wright)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.28, 32.21] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.28,
+          32.21
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -240,7 +324,13 @@
           "source": "Mesha Stele (Moabite Stone)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.776, 31.4981] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.776,
+          31.4981
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -256,7 +346,13 @@
           "source": "Amman Citadel inscriptions"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.9106, 31.9539] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9106,
+          31.9539
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -272,7 +368,13 @@
           "source": "Buseirah excavations (Bennett)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.604, 30.749] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.604,
+          30.749
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -288,7 +390,13 @@
           "source": "Elat/Aqaba archaeology"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.951, 29.546] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.951,
+          29.546
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -304,7 +412,13 @@
           "source": "Kuntillet Ajrud inscriptions (Meshel)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.4256, 30.1928] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4256,
+          30.1928
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -320,7 +434,13 @@
           "source": "Kurkh Monolith (853 BCE)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [36.401, 35.398] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.401,
+          35.398
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -336,7 +456,13 @@
           "source": "Babylonian Chronicle; Jeremiah 46:2 (Riblah/Carchemish)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [38.0154, 36.8297] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0154,
+          36.8297
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -352,7 +478,13 @@
           "source": "Egyptian records"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [31.254, 29.849] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.254,
+          29.849
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -368,7 +500,13 @@
           "source": "Ekron excavations (Gitin)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.851, 31.779] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.851,
+          31.779
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -384,7 +522,13 @@
           "source": "Tell es-Safi excavations (Maeir)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.847, 31.701] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.847,
+          31.701
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -400,7 +544,13 @@
           "source": "Timna excavations; Amzallag (metallurgical theory)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.958, 29.777] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.958,
+          29.777
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -416,7 +566,13 @@
           "source": "Egyptian inscriptions at Amarah West & Soleb"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.4, 29.9] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4,
+          29.9
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -432,7 +588,13 @@
           "source": "Shiloh excavations (Finkelstein)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.289, 32.057] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.289,
+          32.057
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -448,7 +610,13 @@
           "source": "Herodotus; Ezra 6:2"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [48.514, 34.798] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.514,
+          34.798
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -464,7 +632,13 @@
           "source": "Beersheba excavations (Aharoni)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.841, 31.245] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.841,
+          31.245
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -480,7 +654,13 @@
           "source": "Jericho excavations (Kenyon)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.444, 31.871] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.444,
+          31.871
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -496,7 +676,13 @@
           "source": "Gibeon excavations (Pritchard)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.183, 31.847] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.183,
+          31.847
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -512,7 +698,13 @@
           "source": "Ashdod excavations (Dothan)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.658, 31.753] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.658,
+          31.753
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -528,7 +720,13 @@
           "source": "Ashkelon excavations (Stager)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.55, 31.667] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.55,
+          31.667
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -544,7 +742,13 @@
           "source": "Via Maris route studies"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.4668, 31.5017] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4668,
+          31.5017
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -560,7 +764,13 @@
           "source": "Hebron excavations"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.095, 31.532] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.095,
+          31.532
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -576,7 +786,13 @@
           "source": "Persian archaeology"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [48.257, 32.189] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.257,
+          32.189
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -584,7 +800,7 @@
         "name": "Highland villages",
         "kind": "village",
         "start": 1200,
-        "end": 1000,
+        "end": 1001,
         "mode": "both",
         "popup": {
           "bible": "The 'tribes' settling the promised land.",
@@ -592,7 +808,13 @@
           "source": "Finkelstein & Silberman; highland surveys"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.2, 32.1] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2,
+          32.1
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -608,7 +830,13 @@
           "source": "Jerusalem excavations; Babylonian Chronicle BM 21946"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.2296, 31.7784] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2296,
+          31.7784
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -624,7 +852,13 @@
           "source": "Mizpah excavations"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.21, 31.88] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21,
+          31.88
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -640,7 +874,13 @@
           "source": "Elephantine papyri"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [32.872, 24.085] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.872,
+          24.085
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -656,7 +896,13 @@
           "source": "Tell el-Far'ah excavations (de Vaux)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [35.34, 32.29] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.34,
+          32.29
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -672,7 +918,13 @@
           "source": "Kadesh-barnea excavations"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [34.414, 30.637] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.414,
+          30.637
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -688,7 +940,13 @@
           "source": "Al-Yahudu tablets (Pearce & Wunsch)"
         }
       },
-      "geometry": { "type": "Point", "coordinates": [44.6, 32.7] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.6,
+          32.7
+        ]
+      }
     }
   ]
 }
